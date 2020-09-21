@@ -3,16 +3,16 @@ mariadb_config_file: /etc/mysql/my.cnf
 mariadb_config_include_dir: /etc/mysql/conf.d
 mariadb_socket: /var/run/mysqld/mysqld.sock
 
-mariadb_pip_dependencies:
-  - MySQL-python
+mariadb_pip_dependencies: []
+#  - MySQL-python
 
 mariadb_apt_dependencies:
   - software-properties-common
   - build-essential
   - libmysqlclient-dev
-  - python-mysqldb
-  - python-pip
-  - python-dev
+  - python3-mysqldb
+  - python3-pip
+  - python3-dev
 #  - libmysqlclient18
 #  - mysql-common
 #  - libmysqlclient-dev
